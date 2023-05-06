@@ -15,8 +15,8 @@ Underline 1
 Underline 2
 ===========
 
-
 # Formatos de enfasis
+
 - Formato *italica* de la primer forma.
 - Formato _italica_ de la segunda forma.
 - Formato **bold o strong** de la primer forma.
@@ -26,6 +26,7 @@ Underline 2
 Aquí podemos usar *formato italico*, pero también **bold** y ~~tachado~~.
 
 # Listas
+
 1. Esto es un item de lista ordenada.
 2. Esto es un item de lista ordenada.
 3. Esto es un item de lista ordenada.
@@ -35,14 +36,17 @@ Aquí podemos usar *formato italico*, pero también **bold** y ~~tachado~~.
 - Esto es un item de lista desordenada.
 
 # Links
+
 - <a href= "http://google.com" >Esto es un link HTML</a>
 - [Esto es un link en Markdown](http://google.com)
 - [Esto es un link en Index](index.html)
 
 # Imágenes
+
 ![Logo Github](https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png)
 
 # Code Snippets
+
 Código en JSON
 ```JSON
 [
@@ -83,3 +87,40 @@ function $initHighlight(block, cls) {
 
 export  $initHighlight;
 ```
+# Tablas
+| Nombre | Apellido | Documento |
+| ------ | -------- | --------- |
+| Máxi   | Burgos   | 234643    |
+| Tomas  | Thompson | 53720580  |
+
+# Citas 
+
+Esto es un texto referente a una cita que pondremos debajo: 
+>Esto es una cita
+
+Esto es otro texto que no se relaciona con la cita anterior:
+>Esto es otra cita
+
+# Lineas Divisorias
+Esto es un texto que sera dividido por guiones medios.
+
+---
+Esto es otro texto dividido por asteriscos.
+***
+
+Esto es otro texto dividido por guiones bajos.
+___
+
+# Saltos de linea
+Esto es nuestro primer parrafo.
+
+Esto es nuestro segundo parrafo.
+
+Esto es nuestro tercer parrafo.
+- Lista
+ 
+
+
+
+
+
